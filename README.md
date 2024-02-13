@@ -1,2 +1,2 @@
 # JavaScript-Snippets
-A library of JavaScript snippets to be used within webpage injected scripts, browser extension content scripts, or web pages.
+A collection of JavaScript code snippets designed for utilization within injected scripts on web pages, content scripts of browser extensions, or directly embedded within web page contexts.
