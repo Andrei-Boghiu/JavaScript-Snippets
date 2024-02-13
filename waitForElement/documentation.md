@@ -11,11 +11,11 @@ Can be useful to use within Tampermonkey/Greasemonkey scripts, or content script
 
 * `options` (Object, optional): An optional configuration object with the following properties:
 
- * `targetNode` (Object, default: `document.body`): The DOM element to observe for changes. If not specified, the entire document body is observed.
+ ** `targetNode` (Object, default: `document.body`): The DOM element to observe for changes. If not specified, the entire document body is observed.
   
- * `timeout` (Number, default: `null`): The maximum time to wait for the element, in milliseconds. If the element is not found within this time, the function resolves with `undefined` or throws an error based on the `throwError` option.
+ ** `timeout` (Number, default: `null`): The maximum time to wait for the element, in milliseconds. If the element is not found within this time, the function resolves with `undefined` or throws an error based on the `throwError` option.
   
- * `throwError` (Boolean, default: `false`): If set to `true`, the function throws an error on timeout; otherwise, it resolves with `undefined`. Ignored if `timeout` is not specified.
+ ** `throwError` (Boolean, default: `false`): If set to `true`, the function throws an error on timeout; otherwise, it resolves with `undefined`. Ignored if `timeout` is not specified.
 
 ### Returns:
 * A promise that resolves with the found element once it is present in the document.
