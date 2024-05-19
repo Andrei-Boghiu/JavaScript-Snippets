@@ -1,6 +1,6 @@
 # simulateClick Function Documentation
 
-### Overview
+### Description
 
 The `simulateClick` function is designed to simulate a user click on an element specified by its CSS selector. This function mimics user interaction by dispatching a sequence of mouse and touch events, ensuring compatibility with a wide range of interactive elements.
 
@@ -24,3 +24,9 @@ The `simulateClick` function is designed to simulate a user click on an element 
 Ensure the DOM is fully loaded before calling the simulateClick function. You can achieve this by using the DOMContentLoaded event or using the `waitForElement` function available in this repository.
 
 `simulateClick('#myButton');`
+
+### Considerations
+
+- The function uses `document.querySelector` to find the element. Ensure the selector is specific enough to target the correct element.
+- The `simulateClick` function should be called when the DOM is fully loaded to avoid issues with elements not yet being available.
+- This function simulates both mouse and touch events, making it suitable for a variety of interactive elements.
