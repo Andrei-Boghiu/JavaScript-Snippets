@@ -1,4 +1,4 @@
-# waitForElement
+# `waitForElement` Function Documentation
 
 ### Description
 
