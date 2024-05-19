@@ -1,4 +1,4 @@
-# simulateClick Function Documentation
+# `simulateClick` Function Documentation
 
 ### Description
 

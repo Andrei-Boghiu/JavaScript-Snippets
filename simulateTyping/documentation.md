@@ -1,4 +1,4 @@
-# simulateTyping Function Documentation
+# `simulateTyping` Function Documentation
 
 ### Description
 

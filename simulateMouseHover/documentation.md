@@ -1,4 +1,4 @@
-# simulateMouseHover Function Documentation
+# `simulateMouseHover` Function Documentation
 
 ### Description
 

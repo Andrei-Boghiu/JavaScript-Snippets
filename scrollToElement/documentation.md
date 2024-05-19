@@ -1,4 +1,4 @@
-# scrollToElement Function Documentation
+# `scrollToElement` Function Documentation
 
 ### Description
 
