@@ -2,8 +2,7 @@
 
 ### Description
 
-The `waitForElement` function asynchronously waits for a specified CSS selector to appear in the document. It utilizes a combination of initial checks and a MutationObserver to efficiently handle dynamic content loading scenarios.
-Can be useful to use within Tampermonkey/Greasemonkey scripts, or content scripts from browser extensions.
+The `waitForElement` function asynchronously waits for a specified CSS selector to appear in the document. It utilizes a combination of initial checks and a MutationObserver to efficiently handle dynamic content loading scenarios. Can be useful to use within Tampermonkey/Greasemonkey scripts, or content scripts from browser extensions.
 
 ### Parameters
 

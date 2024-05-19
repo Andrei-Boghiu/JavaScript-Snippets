@@ -2,11 +2,13 @@
 
 ### Description
 
-The simulateMouseHover function is designed to simulate a mouse hover over an element specified by its CSS selector. This function mimics user interaction by dispatching a sequence of mouse events (mouseover, mouseenter, mousemove, mouseleave, mouseout) and simulates smooth mouse movement.
+The `simulateMouseHover` function is designed to simulate a mouse hover over an element specified by its CSS selector. This function mimics user interaction by dispatching a sequence of mouse events (`mouseover`, `mouseenter`, `mousemove`, `mouseleave`, `mouseout`) and simulates smooth mouse movement. Can be useful to use within Tampermonkey/Greasemonkey scripts, or content scripts from browser extensions.
 
 ### Function Signature
 
-`function simulateMouseHover(selector)`
+```
+function simulateMouseHover(selector);
+```
 
 ### Parameters
 
